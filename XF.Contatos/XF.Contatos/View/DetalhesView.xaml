@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Contatos.View.DetalhesView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{Binding FotoContato}" 
+                   Aspect="AspectFit"
+                   />
+            <Button Text="Tirar foto" Command="{Binding TirarFotoCommand}" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nome: " />
+                <Label Text="{Binding Contato.Nome}"/>
+                <Label Text="{Binding Contato.Sobrenome}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout>
+                    <Label Text="{Binding Coordenada.Longitude}"/>
+                    <Label Text="{Binding Coordenada.Latitude}"/>
+                </StackLayout>
+                <Button Text="Ver no Mapa" Command="{Binding VerNoMapaCommand}"/>
+            </StackLayout>
+            <StackLayout>
+                <ListView ItemsSource="{Binding AgendaDeContatos}"
+                          RowHeight="150">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Nome}"/>
+                                    <Label Text="{Binding Sobrenome}"/>
+                                    </StackLayout>
+                                    <ListView ItemsSource="{Binding Telefones}">
+                                        <ListView.ItemTemplate>
+                                            <DataTemplate>
+                                                <ViewCell>
+                                                    <StackLayout>
+                                                        <Label Text="{Binding Rotulo}"/>
+                                                        <Label Text="{Binding Numero}"/>
+                                                    </StackLayout>
+                                                </ViewCell>
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>
+                                    </ListView>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

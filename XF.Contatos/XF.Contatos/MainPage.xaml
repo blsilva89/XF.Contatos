@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="XF.Contatos.MainPage"
+             x:Name="mainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding AgendaDeContatos}"
+                      x:Name="lstContatos">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Detalhe" IsDestructive="True"
+                                              Command="{Binding BindingContext.NavegarParaDetalhesCommand, Source={x:Reference mainPage}}"
+                                          CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                            <StackLayout>
+                                <Label Text="{Binding Nome}"/>
+                                <Label Text="{Binding Sobrenome}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
