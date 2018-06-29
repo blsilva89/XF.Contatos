@@ -377,24 +377,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\blsil\\.nuget\\packages\\": {},
+    "C:\\Users\\logonrm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
+      "projectUniqueName": "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
       "projectName": "XF.Contatos",
-      "projectPath": "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
-      "packagesPath": "C:\\Users\\blsil\\.nuget\\packages\\",
-      "outputPath": "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos\\obj\\",
+      "projectPath": "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
+      "packagesPath": "C:\\Users\\logonrm\\.nuget\\packages\\",
+      "outputPath": "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\blsil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\logonrm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

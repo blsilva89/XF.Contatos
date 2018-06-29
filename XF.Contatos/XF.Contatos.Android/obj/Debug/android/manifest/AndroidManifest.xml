@@ -9,18 +9,19 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:label="XF.Contatos.Android" android:name="md5066fcebfaac2b931649e3f67fae90064.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="XF.Contatos.Android" android:name="md5cd1d29c703df951f6d565b5f9825875c.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
     <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.XF.Contatos.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="XF.Contatos" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="md5066fcebfaac2b931649e3f67fae90064.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="XF.Contatos" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="md5cd1d29c703df951f6d565b5f9825875c.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name="md59afdda4d31fec950ac278034dcbd492c.MediaPickerActivity" />
+    <activity android:name="md50575d4ab16fc336ade1879255cf984b5.MediaPickerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.XF.Contatos.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

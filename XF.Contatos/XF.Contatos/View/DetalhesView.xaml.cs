@@ -35,8 +35,10 @@ namespace XF.Contatos.View
                     vmDetalheContato.LigarParaContato(telefone.Numero);
                 }
             }
-
-            await this.DisplayAlert("Aviso", "Número não encontrado", "Ok");
+            else
+            {
+                await this.DisplayAlert("Aviso", "Número não encontrado", "Ok");
+            }
         }
     }
 }

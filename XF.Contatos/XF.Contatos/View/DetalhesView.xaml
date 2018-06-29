@@ -20,29 +20,15 @@
                 </StackLayout>
                 <Button Text="Ver no Mapa" Command="{Binding VerNoMapaCommand}"/>
             </StackLayout>
-            <StackLayout>
-                <ListView ItemsSource="{Binding AgendaDeContatos}"
-                          RowHeight="150">
+            <StackLayout>                
+                <ListView ItemsSource="{Binding Contato.Telefones}"
+                          ItemTapped="ListView_ItemTapped">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
                                 <StackLayout>
-                                    <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding Nome}"/>
-                                    <Label Text="{Binding Sobrenome}"/>
-                                    </StackLayout>
-                                    <ListView ItemsSource="{Binding Telefones}">
-                                        <ListView.ItemTemplate>
-                                            <DataTemplate>
-                                                <ViewCell>
-                                                    <StackLayout>
-                                                        <Label Text="{Binding Rotulo}"/>
-                                                        <Label Text="{Binding Numero}"/>
-                                                    </StackLayout>
-                                                </ViewCell>
-                                            </DataTemplate>
-                                        </ListView.ItemTemplate>
-                                    </ListView>
+                                    <Label Text="{Binding Rotulo}"/>
+                                    <Label Text="{Binding Numero}"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>

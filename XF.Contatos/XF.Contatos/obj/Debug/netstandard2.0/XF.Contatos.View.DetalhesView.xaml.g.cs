@@ -11,8 +11,8 @@
 namespace XF.Contatos.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos\\View\\DetalhesView." +
-        "xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos\\View\\DetalhesVi" +
+        "ew.xaml")]
     public partial class DetalhesView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

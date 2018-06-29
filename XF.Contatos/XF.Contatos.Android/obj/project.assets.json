@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v8.1": {
+    "MonoAndroid,Version=v8.0": {
       "Xamarin.Android.Support.Animated.Vector.Drawable/25.4.0.2": {
         "type": "package",
         "dependencies": {
@@ -692,7 +692,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v8.1": [
+    "MonoAndroid,Version=v8.0": [
       "XF.Contatos >= 1.0.0",
       "Xamarin.Android.Support.Design >= 25.4.0.2",
       "Xamarin.Android.Support.v4 >= 25.4.0.2",
@@ -703,41 +703,46 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\blsil\\.nuget\\packages\\": {}
+    "C:\\Users\\logonrm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos.Android\\XF.Contatos.Android.csproj",
+      "projectUniqueName": "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos.Android\\XF.Contatos.Android.csproj",
       "projectName": "XF.Contatos.Android",
-      "projectPath": "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos.Android\\XF.Contatos.Android.csproj",
-      "packagesPath": "C:\\Users\\blsil\\.nuget\\packages\\",
-      "outputPath": "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos.Android\\obj\\",
+      "projectPath": "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos.Android\\XF.Contatos.Android.csproj",
+      "packagesPath": "C:\\Users\\logonrm\\.nuget\\packages\\",
+      "outputPath": "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\blsil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\logonrm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid81"
+        "monoandroid80"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid81": {
+        "monoandroid80": {
           "projectReferences": {
-            "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj": {
-              "projectPath": "D:\\Cursos\\Xamarin\\20180627\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj"
+            "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj": {
+              "projectPath": "D:\\12NET\\Xamarin\\ProjetoFinal\\XF.Contatos\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj"
             }
           }
         }
       }
     },
     "frameworks": {
-      "monoandroid81": {
+      "monoandroid80": {
         "dependencies": {
           "Xamarin.Android.Support.Design": {
             "target": "Package",

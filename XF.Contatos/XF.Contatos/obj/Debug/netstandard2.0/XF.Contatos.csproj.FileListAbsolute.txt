@@ -22,3 +22,15 @@ D:\Cursos\Xamarin\20180627\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstan
 D:\Cursos\Xamarin\20180627\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.pdb
 D:\Cursos\Xamarin\20180627\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.csprojAssemblyReference.cache
 D:\Cursos\Xamarin\20180627\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.View.DetalhesView.xaml.g.cs
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\bin\Debug\netstandard2.0\XF.Contatos.deps.json
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\bin\Debug\netstandard2.0\XF.Contatos.dll
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\bin\Debug\netstandard2.0\XF.Contatos.pdb
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.csprojResolveAssemblyReference.cache
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.csproj.CoreCompileInputs.cache
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.App.xaml.g.cs
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.MainPage.xaml.g.cs
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.View.DetalhesView.xaml.g.cs
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.AssemblyInfoInputs.cache
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.AssemblyInfo.cs
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.dll
+D:\12NET\Xamarin\ProjetoFinal\XF.Contatos\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.pdb
